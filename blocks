@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <link rel="stylesheet" href="styles.css" />
+    <div class="grid">
+      <div class="one">
+      </div>
+      <div class="two">
+      </div>
+      <div class="three">
+      </div>
+      <div class="four">
+      </div>
+      <div class="five">
+      </div>
+      <div class="six">
+      </div>
+      <div class="seven">
+      </div>
+      <div class="eight">
+      </div>
+      <div class="nine">
+      </div>
+      <div class="ten">
+      </div>
+      <div class="eleven">
+      </div>
+      <div class="twelve">
+      </div>
+    </div>
+  </body>
+</html>
+
+
+body{
+  padding: 25px;
+}
+.grid {
+  display:grid;
+  grid-template-columns:50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows:50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.one {
+  background-color:green;
+  height:200px;
+  width:100px;
+}
+.two {
+  background-color:blue;
+  height:300px;
+  width:200px;
+}
+.three {
+  background-color:yellow;
+  height:50px;
+  width:30px;
+}
+.four {
+  background-color:red;
+  height:300px;
+  width:30px;
+}
+.five {
+  background-color:#37acd1;
+  height:200px;
+  width:40px;
+}
+.six {
+  background-color:#33a916;
+  height;15px;
+  width:100px;
+}
+.seven {
+  background-color:#34386e;
+  height:225px;
+  width:40px;
+}
+.eight {
+  background-color:#36baba;
+  height:100px;
+  width:20px;
+}
+.nine {
+  background-color:#9562a3;
+  height:40px;
+  width:20px;
+}
+.ten {
+  background-color:#b61b6d;
+  height:65px;
+  width:125px;
+}
+.eleven {
+  background-color:#b61b2e;
+  height:300px;
+  width:150px;
+}
+.twelve {
+  background-color:#e6ab4a;
+  height:50px;
+  width:20px;
+}
